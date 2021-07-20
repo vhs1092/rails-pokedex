@@ -1,24 +1,17 @@
-# README
+# rails-pokedex
+https://warm-sands-60140.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Description
 
-Things you may want to cover:
+Ruby on rails application that reads the pokemons from a json file, seeds de database and present the list of pokemons in React.js, also you can add new pokemons or edit/delete them.
 
-* Ruby version
+```
 
-* System dependencies
+* run via rails local
+```
+rake db:create && rake db:schema:load && rake db:seed
+bundle install
+yarn install
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails s -p 3000
+```
